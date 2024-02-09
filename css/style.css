@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -39,4 +40,42 @@ a {
 
 .icon:hover{
     color: #7177f1 !important;
+}
+
+.info{
+  width: 520px; 
+}
+
+.text-blue{
+  color: #7177f1;
+}
+
+
+.btn-blue{
+  background-color: #7177f1;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.text{
+font-weight: 600;
+color: #323232;
+font-size: 24px;
+}
+
+
+.text-p{
+  font-weight: 900;
+  color: #7177f1;
+  font-size: 18px;
+}
+
+.slider-left-icon-content p {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #7177F1;
+  margin-top: 15px;
 }

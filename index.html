@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <header class="header">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="logo" href="#"></a>
           <button
@@ -59,19 +60,64 @@
     </header>
 
     <main class="main">
-      <div class="container">
-        <div id="carouselExampleFade" class="row carousel slide carousel-fade">
-          <div class="col-6"></div>
+      <div class="container mt-5">
+        <div id="car" class="row align-items-center carousel carousel-dark slide carousel-fade">
+          <div class="col-6">
+            <div class="info ms-auto d-flex flex-column align-items-center">
+              <div>
+                <p class="mb-0 text-capitalize text">My beginning</p>
+                <h2 class="fs-1 text-blue text-capitalize">
+                  Self-development and training in the training center
+                </h2>
+              </div>
+              <a href="#" class="btn btn-blue mt-4 px-5">GET STARTED NOW</a>
+            </div>
+            <div class=" mt-5 d-flex flex-row flex-wrap text-center">
+            <div class="slider-left-icon-content col-4 ">
+              <img src="./img/html.png" alt="HTML">
+              <p>HTML</p>
+            </div>
+            <div class="slider-left-icon-content col-4 ">
+              <img src="./img/css.png" alt="CSS">
+              <p>CSS</p>
+            </div>
+            <div class="slider-left-icon-content col-4 ">
+              <img src="./img/boots-trap.png" alt="BOOTSTRAP 5">
+              <p>BOOTSTRAP 5</p>
+            </div>
+            </div>
+          </div>
 
           <div class="col-6">
             <div class="carousel-inner">
               <img
-                src="..."
+                src="./img/group-head2.png"
                 class="d-block w-100 carousel-item active"
-                alt="..."
+                alt="header_img"
               />
-              <img src="..." class="d-block w-100 carousel-item" alt="..." />
+              <img
+                src="./img/group-head.png"
+                class="d-block w-100 carousel-item"
+                alt="header_img"
+              />
             </div>
+          </div>
+
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#car"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#car"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
           </div>
         </div>
       </div>
