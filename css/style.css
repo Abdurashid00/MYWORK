@@ -4,11 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden;
 }
 
 body {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
 }
 
 ul,
@@ -16,6 +15,14 @@ li,
 a {
   text-decoration: none;
   list-style: none;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 2;
+  backdrop-filter: blur(10px);
 }
 
 .logo::after {
@@ -38,48 +45,49 @@ a {
   font-size: 25px;
 }
 
-.icon:hover{
-    color: #7177f1 !important;
+.icon:hover {
+  color: #7177f1 !important;
 }
 
-.info{
-  width: 520px; 
+.info {
+  max-width: 520px;
 }
 
-.text-blue{
+.text-blue {
   color: #7177f1;
 }
 
-
-.btn-blue{
+.btn-blue {
   background-color: #7177f1;
   color: white;
   font-size: 18px;
   font-weight: 400;
 }
-
-.text{
-font-weight: 600;
-color: #323232;
-font-size: 24px;
+.btn-blue:hover{
+  color: #7177f1;
+  border: #7177f1 solid 1px;
 }
 
+.text {
+  font-weight: 600;
+  color: #323232;
+  font-size: 24px;
+}
 
-.text-p{
+.text-p {
   font-weight: 900;
   color: #7177f1;
   font-size: 18px;
 }
 
 .slider-left-icon-content p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-weight: 900;
   font-size: 20px;
   text-transform: capitalize;
-  color: #7177F1;
+  color: #7177f1;
   margin-top: 15px;
 }
-
 
 .carousel-indicators [data-bs-target] {
   box-sizing: border-box;
@@ -91,9 +99,20 @@ font-size: 24px;
 }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: #7177F1;
+  background-color: #7177f1;
 }
 .carousel-indicators {
-    margin-bottom: 0 ;
-    margin-left: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+
+.intro{
+  min-height: 450px;
+}
+
+.intro-text{
+  font-size: 18px;
+  color: #323232;
+  line-height: 150%;
 }
