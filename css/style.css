@@ -72,21 +72,11 @@ a {
   z-index: 10;
   animation: rec 10s linear infinite;
 }
-.rectangle-5 {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  border-color: #9297EF;
-  left: 352px;
-  top: 82px;
-  z-index: -1;
-  animation: rec 10s linear infinite;
-}
 .rectangle-6 {
   width: 100px;
   height: 100px;
   transform: matrix(0.76, 0.65, 0.65, -0.76, 0, 0);
-  color: #7177F1;
+  color: #7177f1;
   right: 90px;
   bottom: 40px;
   animation: rec 10s linear infinite;
@@ -94,16 +84,24 @@ a {
 .rectangle-7 {
   width: 60px;
   height: 60px;
-  color: #790FF1;
+  color: #790ff1;
   border-radius: 50%;
   right: 780px;
   bottom: -98px;
   animation: rec 10s linear infinite;
 }
+.rectangle-8 {
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  color: #790ff1;
+  left: 125px;
+  animation: rec 10s linear infinite;
+}
 
-@keyframes rec  {
+@keyframes rec {
   0% {
-    rotate:360deg;
+    rotate: 360deg;
   }
 }
 
@@ -253,6 +251,18 @@ a {
   width: 100%;
 }
 
+.nav-pills .nav-link.active {
+  background: #7177F1;
+}
+
+.navlink-work {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #7177F1;
+}
+
 .right-wave {
   z-index: -1;
   height: 1000px;
@@ -264,4 +274,30 @@ a {
   top: -40%;
   z-index: -100;
   max-width: 60vw;
+}
+
+.footer{
+  position: relative;
+  margin-top: 220px;
+  padding-bottom: 133px;
+}
+
+.footer-img {
+  margin-bottom: 30px;
+}
+.footer-list {
+  display: flex;
+  gap: 60px;
+}
+.list-unstyled {
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.footer-list-link {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  color: #7177F1;
 }
