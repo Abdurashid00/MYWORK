@@ -60,71 +60,81 @@
     </header>
 
     <main class="main">
-      <div class="container mt-5">
-        <div
-          id="car"
-          class="row align-items-center carousel carousel-dark slide carousel-fade"
-        >
-          <div class="col-lg-6 col-12">
-            <div class="info ms-auto d-flex flex-column align-items-center">
-              <div>
-                <p class="mb-0 text-capitalize text">My beginning</p>
-                <h2 class="fs-1 text-blue text-capitalize">
-                  Self-development and training in the training center
-                </h2>
+      <section class="section">
+        <div class="container mt-5 mb-5">
+          <div
+            id="car"
+            class="row align-items-center carousel carousel-dark slide carousel-fade"
+          >
+            <div class="col-lg-6 col-12">
+              <div class="info ms-auto d-flex flex-column align-items-center">
+                <div>
+                  <p class="mb-0 text-capitalize text">My beginning</p>
+                  <h2 class="fs-1 text-blue text-capitalize">
+                    Self-development and training in the training center
+                  </h2>
+                </div>
+                <a href="#" class="btn btn-blue mt-4 px-5">GET STARTED NOW</a>
               </div>
-              <a href="#" class="btn btn-blue mt-4 px-5">GET STARTED NOW</a>
+              <div class="mt-5 d-flex d-flex justify-content-around flex-wrap">
+                <div class="slider-left-icon-content text-center">
+                  <img src="./img/html.png" alt="HTML" />
+                  <p>HTML</p>
+                </div>
+                <div class="slider-left-icon-content text-center">
+                  <img src="./img/css.png" alt="CSS" />
+                  <p>CSS</p>
+                </div>
+                <div class="slider-left-icon-content text-center">
+                  <img src="./img/boots-trap.png" alt="BOOTSTRAP 5" />
+                  <p>BOOTSTRAP 5</p>
+                </div>
+              </div>
             </div>
-            <div class="mt-5 d-flex d-flex justify-content-around flex-wrap">
-              <div class="slider-left-icon-content text-center">
-                <img src="./img/html.png" alt="HTML" />
-                <p>HTML</p>
-              </div>
-              <div class="slider-left-icon-content text-center">
-                <img src="./img/css.png" alt="CSS" />
-                <p>CSS</p>
-              </div>
-              <div class="slider-left-icon-content text-center">
-                <img src="./img/boots-trap.png" alt="BOOTSTRAP 5" />
-                <p>BOOTSTRAP 5</p>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-6 col-12">
-            <div class="carousel-inner">
-              <img
-                src="./img/group-head2.png"
-                class="d-block w-100 carousel-item active"
-                alt="header_img"
-              />
-              <img
-                src="./img/group-head.png"
-                class="d-block w-100 carousel-item"
-                alt="header_img"
-              />
+            <div class="col-lg-6 col-12">
+              <div class="carousel-inner">
+                <img
+                  src="./img/group-head2.png"
+                  class="d-block w-100 carousel-item active"
+                  alt="header_img"
+                />
+                <img
+                  src="./img/group-head.png"
+                  class="d-block w-100 carousel-item"
+                  alt="header_img"
+                />
+              </div>
+            </div>
+
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#car"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#car"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
             </div>
           </div>
-
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#car"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#car"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
-          </div>
+          <div class="rectangle rectangle-1"></div>
+          <div class="rectangle rectangle-2"></div>
+          <div class="rectangle rectangle-3"></div>
+          <div class="rectangle rectangle-4"></div>
         </div>
-      </div>
-
+      </section>
+      <img
+        src="./img/wave-1.png"
+        alt=""
+        class="position-absolute end-0 right-wave"
+      />
       <div class="container mt-5">
         <div class="row intro">
           <div class="col-lg-6 col-12">
@@ -168,108 +178,458 @@
       </div>
 
       <div class="container mt-5">
-        <h2 class="fs-1 text-blue text-center text-capitalize">capabilities</h2>
-        <div class="row align-items-center">
-          <div class="col-lg-6 col-12 mt-lg-0 mt-5">
-            <div
-              class="accordion shadow accordion-flush"
-              id="accordionFlushExample"
-            >
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed button-item"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseOne"
+        <section class="section">
+          <h2 class="fs-1 text-blue text-center text-capitalize">
+            capabilities
+          </h2>
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-12 mt-lg-0 mt-5">
+              <div
+                class="accordion shadow accordion-flush"
+                id="accordionFlushExample"
+              >
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed button-item"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      <img src="./img/html.png" alt="html" class="img-width" />
+                      <span>html</span>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
                   >
-                    <img src="./img/html.png" alt="html" class="img-width" />
-                    <span>html</span>
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseOne"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
-                    Venenatis Felis Dui Quis Eget Suspendisse Rutrum Orci.
-                    Elementum, Ultrices Dictum Cras Sit Volutpat Morbi
-                    Adipiscing Ut. Convallis Faucibus Ligula Blandit Enim.
-                    Accumsan Est
+                    <div class="accordion-body">
+                      Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
+                      Venenatis Felis Dui Quis Eget Suspendisse Rutrum Orci.
+                      Elementum, Ultrices Dictum Cras Sit Volutpat Morbi
+                      Adipiscing Ut. Convallis Faucibus Ligula Blandit Enim.
+                      Accumsan Est
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed button-item"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseTwo"
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed button-item"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseTwo"
+                    >
+                      <img src="./img/css.png" alt="css" class="img-width" />
+                      <span>css</span>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
                   >
-                    <img src="./img/css.png" alt="css" class="img-width" />
-                    <span>css</span>
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseTwo"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
-                    Venenatis Felis Dui Quis Eget Suspendisse Rutrum Orci.
-                    Elementum, Ultrices Dictum Cras Sit Volutpat Morbi
-                    Adipiscing Ut. Convallis Faucibus Ligula Blandit Enim.
-                    Accumsan Est
+                    <div class="accordion-body">
+                      Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
+                      Venenatis Felis Dui Quis Eget Suspendisse Rutrum Orci.
+                      Elementum, Ultrices Dictum Cras Sit Volutpat Morbi
+                      Adipiscing Ut. Convallis Faucibus Ligula Blandit Enim.
+                      Accumsan Est
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header">
-                  <button
-                    class="accordion-button collapsed button-item"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree"
-                    aria-expanded="false"
-                    aria-controls="flush-collapseThree"
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed button-item"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseThree"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseThree"
+                    >
+                      <img
+                        src="./img/boots-trap.png"
+                        alt="bootstrap"
+                        class="img-width"
+                      />
+                      <span>bootstrap 5</span>
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
                   >
-                    <img
-                      src="./img/boots-trap.png"
-                      alt="bootstrap"
-                      class="img-width"
-                    />
-                    <span>bootstrap 5</span>
-                  </button>
-                </h2>
-                <div
-                  id="flush-collapseThree"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordionFlushExample"
-                >
-                  <div class="accordion-body">
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
-                    Venenatis Felis Dui Quis Eget Suspendisse Rutrum Orci.
-                    Elementum, Ultrices Dictum Cras Sit Volutpat Morbi
-                    Adipiscing Ut. Convallis Faucibus Ligula Blandit Enim.
-                    Accumsan Est
+                    <div class="accordion-body">
+                      Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
+                      Venenatis Felis Dui Quis Eget Suspendisse Rutrum Orci.
+                      Elementum, Ultrices Dictum Cras Sit Volutpat Morbi
+                      Adipiscing Ut. Convallis Faucibus Ligula Blandit Enim.
+                      Accumsan Est
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-12 mt-lg-0 mt-5">
-            <div class="d-flex">
-              <img src="./img/main.png" alt="my works" class="img-fluid"/>
+            <div class="col-lg-6 col-12 mt-lg-0 mt-5">
+              <div class="d-flex">
+                <img src="./img/main.png" alt="my works" class="img-fluid" />
+              </div>
             </div>
           </div>
+          <div class="rectangle rectangle-5"></div>
+        </section>
+      </div>
+
+      <div class="position-relative">
+        <img
+          src="./img/wave-2.png"
+          alt="wave-2"
+          class="position-absolute start-0 left-wave"
+        />
+        <div class="container mt-lg-3 mt-5">
+          <section class="section">
+            <h2 class="fs-1 text-blue text-center text-capitalize my-4">
+              my works
+            </h2>
+
+            <div class="d-flex align-items-start">
+              <div class="row category">
+                <div class="col-lg-3 col-md-5 col-10 mx-auto">
+                  <div
+                    class="nav flex-column bg-white rounded-3 nav-pills me-3"
+                    id="v-pills-tab"
+                    role="tablist"
+                    aria-orientation="vertical"
+                  >
+                    <div
+                      class="nav-link py-3 control active"
+                      id="v-pills-nike-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-nike"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-nike"
+                      aria-selected="true"
+                    >
+                      NIKE
+                    </div>
+                    <div
+                      class="nav-link py-3 control"
+                      id="v-pills-moveon-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-moveon"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-moveon"
+                      aria-selected="false"
+                    >
+                      MOVEON
+                    </div>
+                    <div
+                      class="nav-link py-3 control"
+                      id="v-pills-cinemas-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-cinemas"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-cinemas"
+                      aria-selected="false"
+                    >
+                      VUE CINEMAS
+                    </div>
+                    <div
+                      class="nav-link py-3 control"
+                      id="v-pills-blue-marketing-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-blue-marketing"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-blue-marketing"
+                      aria-selected="false"
+                    >
+                      BLUE MARKETING
+                    </div>
+                    <div
+                      class="nav-link py-3 control"
+                      id="v-pills-blue-marketing-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-blue-marketing"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-blue-marketing"
+                      aria-selected="false"
+                    >
+                      BLUE MARKETING
+                    </div>
+                    <div
+                      class="nav-link py-3 control"
+                      id="v-pills-blue-marketing-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-blue-marketing"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-blue-marketing"
+                      aria-selected="false"
+                    >
+                      BLUE MARKETING
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-9 col-12 shadow-col-9 bg-white mt-lg-0 mt-4 p-2 rounded"
+                >
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="v-pills-nike"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-nike-tab"
+                      tabindex="0"
+                    >
+                      <div
+                        class="d-flex flex-md-row flex-column align-items-md-start align-items-center p-3"
+                      >
+                        <div class="size">
+                          <img
+                            src="./img/nike.jpg"
+                            alt="nike"
+                            class="img-fluid img-size"
+                          />
+                        </div>
+                        <div class="ms-3 works mt-lg-0 mt-4">
+                          <h3 class="text-blue">NIKE</h3>
+                          <p class="text-capitalize intro-text">
+                            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing
+                            Elit. Orci, Mauris Neque, Gravida Amet Diam Cum Nisl
+                            Enim. Vestibulum, Risus, Maecenas Et Nisi Lobortis
+                            Malesuada Vel. Neque, Sem Tellus Sed A, Enim
+                            Egestas. Mi Mi Id Amet, Lorem Vitae Lectus Risus
+                            Diam Nunc.
+                            <br />
+                            <br />
+                            Eget Nunc Eget Lectus Amet Feugiat Lobortis Sit Sit
+                            Non Eu. Nunc, Mauris Viverra Quis Sapien Quam. Non
+                            Parturient Sed
+                          </p>
+                          <a
+                            href="#"
+                            class="btn btn-blue mt-4 ms-5 px-5 text-uppercase"
+                            >details</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-moveon"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-moveon-tab"
+                      tabindex="0"
+                    >
+                      <div
+                        class="d-flex flex-md-row flex-column align-items-md-start align-items-center p-3"
+                      >
+                        <div class="size">
+                          <img
+                            src="./img/nike.jpg"
+                            alt="nike"
+                            class="img-fluid img-size"
+                          />
+                        </div>
+                        <div class="ms-3 works mt-lg-0 mt-4">
+                          <h3 class="text-blue">NIKE</h3>
+                          <p class="text-capitalize intro-text">
+                            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing
+                            Elit. Orci, Mauris Neque, Gravida Amet Diam Cum Nisl
+                            Enim. Vestibulum, Risus, Maecenas Et Nisi Lobortis
+                            Malesuada Vel. Neque, Sem Tellus Sed A, Enim
+                            Egestas. Mi Mi Id Amet, Lorem Vitae Lectus Risus
+                            Diam Nunc.
+                            <br />
+                            <br />
+                            Eget Nunc Eget Lectus Amet Feugiat Lobortis Sit Sit
+                            Non Eu. Nunc, Mauris Viverra Quis Sapien Quam. Non
+                            Parturient Sed
+                          </p>
+                          <a
+                            href="#"
+                            class="btn btn-blue mt-4 ms-5 px-5 text-uppercase"
+                            >details</a
+                          >
+                        </div>
+                      </div>  
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-cinemas"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-cinemas-tab"
+                      tabindex="0"
+                    ><div
+                    class="d-flex flex-md-row flex-column align-items-md-start align-items-center p-3"
+                  >
+                    <div class="size">
+                      <img
+                        src="./img/nike.jpg"
+                        alt="nike"
+                        class="img-fluid img-size"
+                      />
+                    </div>
+                    <div class="ms-3 works mt-lg-0 mt-4">
+                      <h3 class="text-blue">NIKE</h3>
+                      <p class="text-capitalize intro-text">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing
+                        Elit. Orci, Mauris Neque, Gravida Amet Diam Cum Nisl
+                        Enim. Vestibulum, Risus, Maecenas Et Nisi Lobortis
+                        Malesuada Vel. Neque, Sem Tellus Sed A, Enim
+                        Egestas. Mi Mi Id Amet, Lorem Vitae Lectus Risus
+                        Diam Nunc.
+                        <br />
+                        <br />
+                        Eget Nunc Eget Lectus Amet Feugiat Lobortis Sit Sit
+                        Non Eu. Nunc, Mauris Viverra Quis Sapien Quam. Non
+                        Parturient Sed
+                      </p>
+                      <a
+                        href="#"
+                        class="btn btn-blue mt-4 ms-5 px-5 text-uppercase"
+                        >details</a
+                      >
+                    </div>
+                  </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-blue-marketing"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-blue-marketing-tab"
+                      tabindex="0"
+                    ><div
+                    class="d-flex flex-md-row flex-column align-items-md-start align-items-center p-3"
+                  >
+                    <div class="size">
+                      <img
+                        src="./img/nike.jpg"
+                        alt="nike"
+                        class="img-fluid img-size"
+                      />
+                    </div>
+                    <div class="ms-3 works mt-lg-0 mt-4">
+                      <h3 class="text-blue">NIKE</h3>
+                      <p class="text-capitalize intro-text">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing
+                        Elit. Orci, Mauris Neque, Gravida Amet Diam Cum Nisl
+                        Enim. Vestibulum, Risus, Maecenas Et Nisi Lobortis
+                        Malesuada Vel. Neque, Sem Tellus Sed A, Enim
+                        Egestas. Mi Mi Id Amet, Lorem Vitae Lectus Risus
+                        Diam Nunc.
+                        <br />
+                        <br />
+                        Eget Nunc Eget Lectus Amet Feugiat Lobortis Sit Sit
+                        Non Eu. Nunc, Mauris Viverra Quis Sapien Quam. Non
+                        Parturient Sed
+                      </p>
+                      <a
+                        href="#"
+                        class="btn btn-blue mt-4 ms-5 px-5 text-uppercase"
+                        >details</a
+                      >
+                    </div>
+                  </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-blue-marketing"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-blue-marketing-tab"
+                      tabindex="0"
+                    ><div
+                    class="d-flex flex-md-row flex-column align-items-md-start align-items-center p-3"
+                  >
+                    <div class="size">
+                      <img
+                        src="./img/nike.jpg"
+                        alt="nike"
+                        class="img-fluid img-size"
+                      />
+                    </div>
+                    <div class="ms-3 works mt-lg-0 mt-4">
+                      <h3 class="text-blue">NIKE</h3>
+                      <p class="text-capitalize intro-text">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing
+                        Elit. Orci, Mauris Neque, Gravida Amet Diam Cum Nisl
+                        Enim. Vestibulum, Risus, Maecenas Et Nisi Lobortis
+                        Malesuada Vel. Neque, Sem Tellus Sed A, Enim
+                        Egestas. Mi Mi Id Amet, Lorem Vitae Lectus Risus
+                        Diam Nunc.
+                        <br />
+                        <br />
+                        Eget Nunc Eget Lectus Amet Feugiat Lobortis Sit Sit
+                        Non Eu. Nunc, Mauris Viverra Quis Sapien Quam. Non
+                        Parturient Sed
+                      </p>
+                      <a
+                        href="#"
+                        class="btn btn-blue mt-4 ms-5 px-5 text-uppercase"
+                        >details</a
+                      >
+                    </div>
+                  </div>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-blue-marketing"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-blue-marketing-tab"
+                      tabindex="0"
+                    ><div
+                    class="d-flex flex-md-row flex-column align-items-md-start align-items-center p-3"
+                  >
+                    <div class="size">
+                      <img
+                        src="./img/nike.jpg"
+                        alt="nike"
+                        class="img-fluid img-size"
+                      />
+                    </div>
+                    <div class="ms-3 works mt-lg-0 mt-4">
+                      <h3 class="text-blue">NIKE</h3>
+                      <p class="text-capitalize intro-text">
+                        Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing
+                        Elit. Orci, Mauris Neque, Gravida Amet Diam Cum Nisl
+                        Enim. Vestibulum, Risus, Maecenas Et Nisi Lobortis
+                        Malesuada Vel. Neque, Sem Tellus Sed A, Enim
+                        Egestas. Mi Mi Id Amet, Lorem Vitae Lectus Risus
+                        Diam Nunc.
+                        <br />
+                        <br />
+                        Eget Nunc Eget Lectus Amet Feugiat Lobortis Sit Sit
+                        Non Eu. Nunc, Mauris Viverra Quis Sapien Quam. Non
+                        Parturient Sed
+                      </p>
+                      <a
+                        href="#"
+                        class="btn btn-blue mt-4 ms-5 px-5 text-uppercase"
+                        >details</a
+                      >
+                    </div>
+                  </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rectangle rectangle-6"></div>
+            <div class="rectangle rectangle-7"></div>
+          </section>
         </div>
       </div>
     </main>
